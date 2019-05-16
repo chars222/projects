@@ -2,6 +2,6 @@ version: '3'
 
 services:
   node:
-    image: app-node
+    build: .
     ports:
       - "3000:3000"
